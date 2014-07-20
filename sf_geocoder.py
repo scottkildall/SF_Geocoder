@@ -5,6 +5,9 @@ import csv
 # this is for lat-long translation
 GEOCODE_BASE_URL = 'https://maps.google.com/maps/api/geocode/json'
 
+# this for elevation, both use the same API key
+ELEVATION_BASE_URL = 'https://maps.google.com/maps/api/elevation/json'
+
 # convert raw address string to JSON string
 # expects a string like "16th+and+Bryant,+san+francisco" and the API key
 # generates a valid URL
@@ -23,6 +26,12 @@ def geocode(address,apiKey, sensor="false", **geo_args):
 	result = simplejson.load(urllib.urlopen(url))
 	return result
 
+def getElevationJSON(lat,lng,apiKey):
+	URL_PARAMS = "locations=" + str(lat) + "," + str(lng) + "&key=" + apiKey
+	url = ELEVATION_BASE_URL + '?' + URL_PARAMS
+	result = simplejson.load(urllib.urlopen(url))
+	return result
+
 # returns the lat from the jsonLine
 def latFromGeocode(jsonLine):
 	return jsonLine['results'][0]['geometry']['location']['lat']
@@ -31,6 +40,10 @@ def latFromGeocode(jsonLine):
 def lngFromGeocode(jsonLine):
 	return jsonLine['results'][0]['geometry']['location']['lng']
 
+# from the elevtion API
+def eleFromJSON(jsonLine):
+	# these are our 4 values
+	return  jsonLine['results'][0]['elevation']
 
 # write the headers:
 def writeHeader(headers, csvOutputFileObj):
@@ -112,11 +125,13 @@ def csvTranslate(csvInputFilename, csvOutputFileObj, apiKey):
 							sfGeocode = makeSFGeocode(r)
 							#print sfGeocode
 
-							jsonLine = geocode(sfGeocode,apiKey)
+							geo_jsonLine = geocode(sfGeocode,apiKey)
 							#print jsonLine
-							lat = latFromGeocode(jsonLine)
-							lng = latFromGeocode(jsonLine)
-							ele = 0
+							lat = latFromGeocode(geo_jsonLine)
+							lng = latFromGeocode(geo_jsonLine)
+							ele_jsonLine = getElevationJSON(lat,lng,apiKey)
+							ele = eleFromJSON(ele_jsonLine)
+
 							outLine = outLine + r  + "," + str(lat) + "," + str(lng) + "," + str(ele)
 							firstOne = False
 						else:
