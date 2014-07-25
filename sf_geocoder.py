@@ -90,7 +90,7 @@ def makeSFGeocode(geoLine):
 		if secondPart == "":
 			return firstPart
 		else:
-			return firstPart + "+and+" + secondPart
+			return firstPart + "+and+" + secondPart + ",San Francisco, CA"
 
 		#print row[0]		-- row[0] = something like "York & 19th"
 		##lines =  row[0].split(' ' );
@@ -128,8 +128,9 @@ def csvTranslate(csvInputFilename, csvOutputFileObj, apiKey):
 							geo_jsonLine = geocode(sfGeocode,apiKey)
 							#print jsonLine
 							lat = latFromGeocode(geo_jsonLine)
-							lng = latFromGeocode(geo_jsonLine)
+							lng = lngFromGeocode(geo_jsonLine)
 							ele_jsonLine = getElevationJSON(lat,lng,apiKey)
+							print (ele_jsonLine)
 							ele = eleFromJSON(ele_jsonLine)
 
 							outLine = outLine + r  + "," + str(lat) + "," + str(lng) + "," + str(ele)

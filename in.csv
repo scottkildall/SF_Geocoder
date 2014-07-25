@@ -1,170 +1,68 @@
-Description,Volume
-Broadway & Osgood,23000
-Grant & Bush,21000
-Grant & California,17400
-Grant & Washington,15000
-Grant & Pacific,28600
-Grant & Vallejo,11300
-Grant & Union,15700
-Grant & Greenwich,69000
-Jones & Jackson,89000
-Kearney & Sacramento,18000
-Kearney & Merchant,34400
-Leavenworth & Union,90000
-Mason & California,87000
-Montgomery & Pacific,20000
-Montgomery & Washington,16000
-Montgomery & Commercial,17500
-Montgomery & California,32500
-Kearney & Post,13000
-Kearney & Bush,19200
-Powell & Green,20350
-Powell & Pacific,13700
-Powell & Bush,34460
-Battery & Bush,75000
-Powell & Washington,13750
-Sansome & Pacific,25750
-Stockton & Pacific,19000
-Stockton & Vallejo,9600
-Stockton & Union,26100
-Taylor & Clay,34660
-Van Ness & Bay,75000
-Capp & 18th,75000
-Capp & 15th,75000
-Dolores & 18th,75000
-Dolores & 16th,75000
-Dolores & 14th,75000
-8th & Brannan,75000
-8th & Townsend,75000
-Folsom & 13th,75000
-Folsom & 16th,75000
-Fulton & Laguna,75000
-Kansas & 15th,75000
-Howard & 7th,75000
-Laguna & Market,75000
-Market & Valencia,75000
-Mission & 7th,75000
-Mission & Otis,75000
-Sanchez & Duboce,75000
-Van Ness & Market,75000
-Van Ness & Grove,75000
-Van Ness & Golden Gate,75000
-Van Ness & Ellis,75000
-Webster & Waller,75000
-5th & Bluxome,75000
-5th & Bryant,75000
-5th & Harrison,75000
-5th & Folsom,75000
-1st & Howard,75000
-1st & Folsom,75000
-1st & Harrison,95200
-4th & Harrison,75000
-Howard & Beale,75000
-Powell & Ellis,19200
-2nd & Folsom,34000
-6th & Howard,75000
-6th & Folsom,75000
-6th & Harrison,75000
-4th & Bryant,75000
-Mariposa & Missouri,75000
-Broadway & Scott,75000
-California & Buchanan,75000
-Clay & Laurel,75000
-Divisadero & Washington,75000
-Geary & Gough,75000
-Geary & Laguna,75000
-Geary & Webster,75000
-Geary & Scott,75000
-Green & Broderick,75000
-Greenwich & Webster,75000
-Greenwich & Baker,75000
-Pacific & Baker,75000
-Sacramento & Baker,75000
-Sutter & Octavia,75000
-Union & Steiner,75000
-Union & Laguna,75000
-Vallejo & Webster,75000
-Broderick & Fulton,75000
-Broderick & Post,75000
-Castro & 14th,75000
-Cole & Alma,75000
-Divisadero & Fell,75000
-Divisadero & Eddy,75000
-Lyon & Bush,75000
-Lyon & Golden Gate,75000
-Masonic & Frederick,75000
-Masonic & Oak,75000
-Parker & Fulton,75000
-Shrader & Frederick,75000
-Shrader & Page,75000
-Williard & Belmont,75000
-Chenery & Surrey,75000
-Church & 23rd,75000
-Diamond & 19th,75000
-Diamond & 28th,75000
-Diamond & Bosworth,75000
-Dolores & 30th,75000
-Dolores & 28th,75000
-Dolores & 26th,75000
-Dolores & 24th,75000
-Dolores & 22nd,75000
-Dolores & 20th,75000
-Dolores & 14th,75000
-Douglass & Elizabeth,75000
-Eureka & 21st,75000
-Guerrero & Cumberland,63600
-Harrison & 18th,75000
-19th & Folsom,89092
-Noe & Hill,75000
-Noe & 24th,75000
-Noe & 29th,75000
-Preceta & Alabama,75000
-Shotwell & 22nd,70700
-Bryant & 21st,75000
-York & 19th,75000
-York & 22nd,75000
-Bryant & 26th,75000
-Andover & Crescent,50398
-Arguello & Clement,75000
-California & Commonwealth,75000
-Geary & 5th,75000
-34th & Balboa,55666
-41st & Balboa,55667
-Funston & California,55665
-30th & Geary,55665
-38th & Geary,55666
-46th & Geary,55667
-Irving & 5th ,75000
-Judah & 47th ,75000
-Judah & 9th ,75000
-Vicente & 43rd,55668
-Lakeview & Josiah,75000
-Plymouth & Sadowa,75000
-Vienna & Persia,75000
-3rd & Kirkwood,45000
-Kansas & Army,75000
-Kansas & 20th,75000
-Kansas & 23rd,75000
-3rd & Oakdale,34000
-Fitzgerald & Hawes,50396
-Gambier & Felton,75000
-Hamilton & Dwight,75000
-Ingalls & Shafter,50397
-Peninsula & Blanken,50395
-Sunnydale & Sawyer,50395
-3rd & Thomas,50397
-Connecticut & 20th,75000
-Pennsylvania & 22nd,75000
-South Van Ness & 20th,74292
-San Bruno & 25th,75000
-Van Ness & Post,75000
-Van Ness & Pine,75000
-Van Ness & Washington,75000
-Van Ness & Broadway,75000
-Van Ness & Union,75000
-Van Ness & Lombard,75000
-North Point & Divisadero,55664
-Buena Vista East & Buena Vista Terrace,75000
-Legion of Honor West,75000
-Legion of Honor East,75000
-Civic Center,243000
+Description
+Anza St. & 43rd Ave.
+Anza St. & 37th Ave.
+Clement St. & 44th Ave.
+Anza St. & 30th Ave.
+Geary Blvd. & 21st Ave.
+Geary Blvd. & Funston Ave.
+Arguello St. & Edward St.
+Euclid Ave. & Collins St.
+Divisadero St. & Pacific Ave.
+Broderick St. & Bay St.
+Ashbury St. & Waller St.
+Irving St. & 12th Ave.
+24th Ave. & Judah St.
+45th Ave. & Kirkham St.
+41st Ave. & Pacheco St.
+24th Ave. & Pacheco St.
+Quintara St. & Cragmont Ave.
+Christopher Dr. & Clarendon Ave.
+Douglas St. & 24th St.
+Taraval St. & 44th Ave.
+Ulloa St. & 25th Ave.
+Portola Dr. & Marne Ave.
+Lakeshore Plaza & Ocean Ave.
+Ocean Ave. & San Fernando Way
+Ridgewood Ave. & Flood Ave.
+Ocean Ave. & San Jose Ave.
+Plymouth Ave. & Minerva St.
+Alemany Blvd. & St. Charles Ave.
+Jackson St. & Gough St.
+Buchanan St. & Chestnut St.
+Hyde St. & Greenwich St.
+Taylor St. & Columbus Ave.
+Kearny St. & California St.
+Union St. & Columbus Ave.
+Broadway & Davis St.
+Bay St. & The Embarcadero
+McAllister St. & Fillmore St.
+Bush St. & Octavia St.
+Ellis St. & Leavenworth St.
+Grove St. & Polk St.
+Market St. & 4th St.
+1st St. & Folsom St.
+6th St. & Harrison St.
+3rd St. & King St.
+Castro St. & States St.
+Bryant St. & 16th St.
+Mississippi St. & Mariposa St.
+3rd St. & 16th St.
+Liberty St. & Church St.
+20th St. & Dolores St.
+23rd St. & Treat Ave.
+Pennsyvania Ave. & 25th St.
+Precita Ave. & Folsom St.
+Castro St. & 30th St.
+Mission St. & Richland Ave
+Industrial St. & Revere Ave.
+3rd St. & Jerrold Ave.
+Mission St. & Castle Manor Ave.
+Brazil Ave. & Pr St.
+Mansell St. & Dartmouth St.
+3rd St. & Carroll Ave.
+Ingalls St. & Quesada Ave.
+Innes Ave. & Earl St.
+Geneva Ave. & Moscow St.
+Sunnydale Ave. & Hahn St.
+Blanken Ave. & Tunnel Ave.
+Jamestown Ave. & Harney Way
